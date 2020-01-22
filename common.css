@@ -137,9 +137,6 @@ dl.accordion dd{background:#f4f4f4;padding:12px 30px;color:#777;font-size:1.05em
 
 /* 레이어팝업 */
 .pop_btn{display:inline-block;position:relative;top:100px;padding:10px 50px;border:1px solid #555;background:#eee;}
-.pop_area{display:none;position:fixed;top:0;left:0;width:100%;height:100%;z-index:100;}
-.pop_area .pop_con{position:absolute;top:50%;left:50%;padding:30px 20px;background:#fff;text-align:center;z-index:110;border-radius:20px;}
-.pop_area .pop_con.pop_size1{width:500px;height:200px;}
-.pop_area .pop_con.pop_size2{width:350px;height:150px;}
-.pop_area .pop_con .pop_btn_close{display:inline-block;padding:8px 50px;margin-top:30px;background:#444;color:#fff;border-radius:5px;}
-.pop_area .pop_con .pop_btn_close:hover{background:#222;}
+.pop_area{position:fixed;top:0;left:0;width:100%;height:100%;z-index:100;}
+.pop_area .pop_con{position:absolute;width:400px;height:200px;top:50%;left:50%;padding:30px 20px;background:#fff;text-align:center;z-index:110;border-radius:20px;}
+.pop_btn_close{display:inline-block;position:absolute;left:40%;bottom:20px;padding:8px 50px;background:#444;color:#fff;}
