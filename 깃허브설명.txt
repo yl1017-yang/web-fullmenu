@@ -1,0 +1,25 @@
+﻿★깃허브 간단설명
+https://hjine01.blog.me/221493849635
+https://dalae37.blog.me/221432763850
+
+
+★schannel: next InitializeSecurityContext failed: 에러
+https://m.blog.naver.com/PostView.nhn?blogId=jungwan82&logNo=221238677620&proxyReferer=https%3A%2F%2Fwww.google.com%2F
+
+gitbash 열어서
+$ git config --global http.sslVerify "false"
+
+$ git config --global http.schannel.checkRevoke false
+
+ssl확인을 생략하는 방법으로 에러 해결
+
+
+$ git config --global http.sslBackend "openssl"
+$ git config --global http.sslCAInfo [path to .pem file]
+//git config --global http.sslCAInfo "C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt"
+
+git config --global http.sslCAInfo "C:\Users\81700445\Desktop/git"
+
+
+★깃허브 간단 사용
+커밋 - 로컬저장소 / 푸쉬 - 서버저장소
