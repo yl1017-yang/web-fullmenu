@@ -26,7 +26,7 @@ a {text-decoration:none;outline:1;color:inherit;}
 
 
 /* 상단 */
-#header{position:absolute;width:100%;height:100px;top:0;left:0;background:#fff;overflow:hidden;z-index:40;}
+#header{position:absolute;width:100%;height:100px;top:0;left:0;background:#ddd;overflow:hidden;z-index:40;}
 #header .inner{position:relative;width:980px;margin:0 auto;}
 #header .inner .gnb_area{position:relative;}
 #header .inner .gnb_area h1{position:absolute;left:0;top:30px;}
