@@ -126,7 +126,8 @@ jQuery.fn.pageInit = function(arg) {
 	if(!jQuery.browser.mobile) {
 //		$header.on("mouseenter", function(){  	//header 전체배경 마우스 활성
 		$gnb_area.on("mouseenter", function(){	//gnb 배경 마우스 활성
-			$header.stop().animate({
+			//$header.stop().animate({
+            $("#header .inner .gnb_area .gnb li dl dd a").stop().animate({
 				"height":"250px"
 			});
 		}).on("mouseleave", function(){
